@@ -33,13 +33,9 @@ layout: default
   </div>
 </nav>
 
-
 <div class="container-fluid">
   <div class="row mt-3">
     <div class="col-lg-3 col-md-6">
-
-      <!--Body text-->
-      <p>Hello. I'm a little bit of body text. Plain and simple.</p>
 
       <!--Badges-->
       <span class="badge badge-primary">Primary</span>
@@ -524,6 +520,21 @@ layout: default
           </tbody>
         </table>
       </div>
+    </div>
+  </div>
+
+
+  <div>
+    <div>
+            <!--Body text-->
+      <h1>The Quick Brown Fox Jumped Over The Lazy Dog</h1>
+      <h2>The Quick Brown Fox Jumped Over The Lazy Dog</h2>
+      <h3>The Quick Brown Fox Jumped Over The Lazy Dog</h3>
+      <h4>The Quick Brown Fox Jumped Over The Lazy Dog</h4>
+      <h5>The Quick Brown Fox Jumped Over The Lazy Dog</h5>
+      <h6>The Quick Brown Fox Jumped Over The Lazy Dog</h6>
+      <p>Hello. I'm a little bit of body text. Plain and simple. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog.</p>
+      
     </div>
   </div>
 </div>

@@ -35,8 +35,6 @@ $color-gray-dark:            #4D4D4D !default;
 $color-gray-light:           #B3B3B3 !default;
 $color-gray-lighter:         #D9D9D9 !default;
 
-$color-star-red:             #E4002B !default;
-
 $color-malibu-blue:          #0075BB !default;
 $color-lochmara-blue:        #0092D1 !default;
 $color-cornflower-blue:      #A4D5EE !default;
@@ -54,8 +52,16 @@ $color-green-light:          #4AA564 !default;
 $color-green-lighter:        #94BFA2 !default;
 $color-green-lightest:       #E7F4E4 !default;
 
+
+
+// special state
+
+$color-focus:                #2C5491;
+$color-visited:              #4C2C92;
+
 */
 
+$color-star-red:             #E4002B !default;
 $color-flag-blue:            #41B6E6 !default;
 
 
@@ -67,39 +73,59 @@ $color-bahama-blue:          #005B99 !default;
 
 $blue:     $color-bahama-blue !default;             // #0d6efd
 $indigo:   #6610f2 !default;             // #6610f2
-$purple:   #6f42c1 !default;             // #6f42c1
+$purple:   #4C2C92 !default;             // #6f42c1
 $pink:     #d63384 !default;             // #d63384
-$red:      $color-red-dark !default;             // #dc3545
+$red:      $color-star-red !default;             // #dc3545
 $orange:   #fd7e14 !default;             // #fd7e14
 $yellow:   $color-gold !default;             // #ffc107
 $green:    $color-green !default;             // #28a745
 $teal:     #20c997 !default;             // #20c997
 $cyan:     $color-flag-blue !default;             // #17a2b8
 
-
-// special state
-
-$color-focus:                #2C5491;
-$color-visited:              #4C2C92;
-
 // fusv-enable
 
-// FONTS
-/////////////////////////////////////
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
 
-$font-logo:                  'Big Shoulders Text', sans-serif;
 
-$font-sans:                  'Roboto', sans-serif;
+$font-logo:                  'Big Shoulders Display', sans-serif;
+$font-sans:                  Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-serif:                 'Lora', serif;
 
-// $local-font-path:   '../fonts' !default;
-// $local-image-path:   '../img' !default;
+@include google-font(Roboto, 100 300 500 700, italic normal);
+@include google-font(Big Shoulders Text, 100 200 300 400 500 600 700 800 900, light medium regular black bold extrabold semibold thin);
+@include google-font(Lora, 400 700, italic normal);
 
-// @include google-font(Roboto, 100 300 500 700, italic normal);
-// @include google-font(Big Shoulders Text, 100 200 300 400 500 600 700 800 900, light medium regular black bold extrabold semibold thin);
-// @include google-font(Lora, 400 700, italic normal);
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      $font-sans !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
-$font-family-base:            $font-sans;
+// stylelint-enable value-keyword-case
 
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
 
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+$line-height-base:            1.5 !default;
+$line-height-lg:              2 !default;
+$line-height-sm:              1.25 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
 
