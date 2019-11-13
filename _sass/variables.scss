@@ -52,8 +52,6 @@ $color-green-light:          #4AA564 !default;
 $color-green-lighter:        #94BFA2 !default;
 $color-green-lightest:       #E7F4E4 !default;
 
-
-
 // special state
 
 $color-focus:                #2C5491;
@@ -87,7 +85,6 @@ $cyan:     $color-flag-blue !default;             // #17a2b8
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-
 
 $font-logo:                  'Big Shoulders Display', sans-serif;
 $font-sans:                  Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
@@ -128,4 +125,3 @@ $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
-
