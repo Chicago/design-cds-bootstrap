@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This project supports the asset pipeline for Chicago Design System technology applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: chiDesignDir
+github_username:  jdkunesh
 
 # Build settings
 markdown: kramdown
@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 sass:
-  style: compressed
+  style: compact
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
