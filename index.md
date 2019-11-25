@@ -20,7 +20,7 @@ layout: default
 <nav role="navigation" class="cds-nav">
     <div class="cds-nav-inner">
       <button class="cds-nav-close">
-        <img src="img/close.svg" alt="close">
+        <img src="assets/img/close.svg" alt="close">
       </button>
       <ul class="cds-nav-primary cds-accordion">
         <li><a class="cds-nav-link" href="#"><span>Home</span></a></li>
