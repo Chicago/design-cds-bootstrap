@@ -3,6 +3,48 @@
 layout: default
 
 ---
+<!-- CDS SITE SEAL -->
+<div class='site-trust-seal'>
+        <div class='trust-seal-link container'>
+          <div class='row'>
+            <div class='col ml-2 trust-seal-link-container'  data-toggle="collapse" data-target="#trust-seal-content" role="button"
+            aria-expanded="false" aria-controls="trust-seal-content">
+              <img src='assets/img/safari-pinned-tab.svg' class='trust-seal-flag' title='Flag'>
+              <div>
+                <span>An official website of the City of Chicago</span>
+                <button class="trust-seal-action" title='Here’s how you know' 
+                    data-target="#trust-seal-content" role="button"
+                    data-toggle="collapse" 
+                    aria-expanded="false" aria-controls="trust-seal-content">
+                  <span>Here’s how you know</span>
+                </button>	
+              </div>										
+            </div>
+          </div>
+        </div>
+        <div class='trust-seal-content collapse container mt-4' aria-hidden='true' id='trust-seal-content'>
+          <div class='row'>
+            <div class='col-sm-6'>
+                <div class="media">
+                    <img class="mr-3 trust-seal-icon" src="assets/img/icon-dot-gov.svg" alt="Generic placeholder image">
+                    <div class="media-body">
+                    <h5 class="mt-0">The .gov means it’s official.</h5>
+                    Municipal government websites often end in .gov or .org. Before sharing sensitive information, make sure you’re on a City of Chicago government site.
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-6'>
+                <div class="media">
+                    <img class="mr-3 trust-seal-icon" src="assets/img/icon-https.svg" alt="Generic placeholder image">
+                    <div class="media-body">
+                    <h5 class="mt-0">The site is secure.</h5>
+                    The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+                    </div>
+                </div>						
+            </div>					
+          </div>								
+        </div>					
+      </div>	
 <!-- CDS NAVBAR -->
 <header class="cds-header" role="banner">
 	<div class="cds-navbar">
@@ -79,34 +121,7 @@ layout: default
   </nav>
 </header>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#!">Navbar</a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#!">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#!">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    </form>
-  </div>
-</nav>
 
 <div class="container-fluid">
   <div class="row mt-3">
@@ -597,8 +612,35 @@ layout: default
       </div>
     </div>
   </div>
-
-
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#!">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#!">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    </form>
+  </div>
+</nav>
+-->
   <div>
     <div>
             <!--Body text-->
@@ -613,3 +655,45 @@ layout: default
     </div>
   </div>
 </div>
+<!-- CDS SITE FOOTER -->
+<footer>
+    <div class='footer-primary'>
+      <div class='footer-primary-nav container' role='navigation'>
+        <a href='#'>Link 1</a>
+        <a href='#'>Link 2</a>
+        <a href='#'>Link 3</a>
+      </div>
+    </div>
+    <div class='footer-main'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-6'>
+    
+          <div class="media footer-media">
+            <img class="align-self-center mr-3" src="assets/img/city_seal_clr.png" alt="City of Chicago">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0">City of Chicago</h3>
+            </div>
+            </div>
+
+        </div>
+        <div class='col-sm-6'>
+          <div class='footer-main-right'>
+            <div class='footer-social-links'>
+              <a href='#'><i class="fab fa fa-twitter"></i></a>
+              <a href='#'><i class="fab fa fa-facebook"></i></a>
+              <a href='#'><i class="fab fa fa-youtube"></i></a>
+            </div>
+            <div class='footer-contact'>
+                <h4>Contact Info</h4>
+            </div>
+            <div class='footer-contact-links'>
+                <a href="#">info@chicago.gov</a>
+                <a href="#">(312)-774-2828</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
