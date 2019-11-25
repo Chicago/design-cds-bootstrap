@@ -1,0 +1,97 @@
+
+img.trust-seal-icon {
+    width:2.5rem;
+}
+.trust-seal-flag {
+    width: 1rem;
+    opacity: .33;
+    margin-right: .3em;    
+
+}
+.trust-seal-link {
+    font-size: 0.8em;
+}
+
+button.trust-seal-action {
+    background-color: transparent;
+    color:$blue;
+    border: 0px;
+
+}
+   
+button.trust-seal-action:focus {
+    outline: .25rem solid $blue;
+    outline-offset: 0;
+}
+.trust-seal-action::after {
+    background-image: url(img/angle-arrow-down-primary.svg), -webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+    background-image: url(img/angle-arrow-down-primary.svg),linear-gradient(transparent,transparent);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: .5rem;
+    content: "";
+    display: inline-block;
+    height: .5rem;
+    width: .5rem;
+    margin-left: 2px;
+}
+
+.trust-seal-action[aria-expanded=true]::after {
+    background-image: url(img/angle-arrow-up-primary.svg), -webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+    background-image: url(img/angle-arrow-up-primary.svg),linear-gradient(transparent,transparent);
+
+}
+
+.site-trust-seal {
+    line-height: 1.5;
+    background-color: $color-gray-lightest;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+
+.trust-seal-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    cursor: pointer;
+    
+}
+
+@include media-breakpoint-down(sm) {
+
+    button.trust-seal-action[aria-expanded=true] {
+        outline: none;
+    }
+
+    .trust-seal-action[aria-expanded=true]:after {
+        background-image: url(img/close-blue-60v-alt.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+        background-image: url(img/close-blue-60v-alt.svg),linear-gradient(transparent,transparent);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 1rem;
+        content: "";
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        margin-left: 0;
+        top: -10px;
+        position: absolute;
+        right: -30px;
+        background-color: $color-gray-lightest;
+        bottom: 0;
+        height: auto;
+        margin-left: 10px;;
+    }
+    /* .trust-seal-action , .trust-seal-action[aria-expanded=true] {
+        margin-left: 25px;
+    } */
+
+    .trust-seal-action[aria-expanded=true]  span {
+        display: none;
+    }
+
+    .trust-seal-link-container {
+        align-items: flex-start;
+        
+    }
+}
