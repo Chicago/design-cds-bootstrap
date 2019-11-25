@@ -1,0 +1,113 @@
+
+.footer-primary, footer  {
+    background-color:#f0f0f0;
+}
+
+.footer-primary .footer-primary-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.footer-primary .footer-primary-nav  a {
+    font-weight:bold;
+    color:#000;
+    margin-right: 10px;
+    padding: 1em;
+}
+
+.footer-primary .footer-primary-nav a:first-of-type {
+    padding-left:0px;
+}
+.footer-media  img {
+    max-width: 5em;
+}
+
+.footer-main {
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    background-color:#dcdee0 !important;
+}
+
+.footer-main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.footer-social-links {
+    display: flex;
+}
+
+.footer-social-links a { 
+
+    padding: .5em;
+    margin-left: 4px;
+    font-size:1.5em;
+    color: #1b1b1b;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(0,0,0,.1);
+}   
+.footer-social-links a:focus { 
+    outline: .25rem solid #2491ff;
+    outline-offset: 0;
+}
+
+
+.footer-contact-links {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-contact-links  * {
+    display: inline-block;
+    margin-right:10px;
+}
+.footer-contact-links  a {
+    color:#1b1b1b;
+    text-decoration:none;
+}
+.footer-contact-links  a:hover {
+    text-decoration:underline;
+}
+.footer-primary-nav  a:focus, .footer-contact-links  a:focus {
+    outline: .25rem solid #2491ff;
+    outline-offset: 0;
+}
+
+
+@media (max-width: 39.99em) {
+    .footer-primary .footer-primary-nav {
+
+        flex-direction: column;
+        padding-left:0px;
+        padding-right:0px;
+        
+    }
+
+    .footer-primary .footer-primary-nav  a {
+        border-top: 1px solid #a9aeb1;
+        width:100%;
+        display: block;
+        
+    }
+
+    .footer-primary .footer-primary-nav a:first-of-type {
+        padding-left:15px;
+    }
+
+    .footer-main-right {
+
+        justify-content: center;
+        align-items:flex-start;
+        margin-top:15px;
+    }
+}
+
