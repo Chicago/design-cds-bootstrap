@@ -3,6 +3,81 @@
 layout: default
 
 ---
+<!-- CDS NAVBAR -->
+<header class="cds-header" role="banner">
+	<div class="cds-navbar">
+	  <button class="cds-menu-btn">MENU</button>
+	  <div class="cds-logo" id="logo">
+	    <em class="cds-logo-text">
+	      <a href="#" title="Home">
+	        <img src="img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
+			    <h1 class="cds-header-title">Chicago</h1>
+	      </a>
+	    </em>
+	  </div>
+	</div>
+ 	<!--Start Navigation-->
+<nav role="navigation" class="cds-nav">
+    <div class="cds-nav-inner">
+      <button class="cds-nav-close">
+        <img src="img/close.svg" alt="close">
+      </button>
+      <ul class="cds-nav-primary cds-accordion">
+        <li><a class="cds-nav-link" href="#"><span>Home</span></a></li>
+        <li><a class="cds-nav-link" href="#"><span>Page title</span></a></li>
+        <li>
+          <button class="cds-accordion-button cds-nav-link" aria-expanded="false" aria-controls="nav-5">
+            <span>Dropdown</span>
+          </button>
+          <ul id="nav-5" class="cds-nav-submenu" aria-hidden="true">
+              <li><a href="#">Page title</a></li>
+              <li><a href="#">Page title one</a></li>
+              <li><a href="#">Page title two</a></li>
+              <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li>
+          <button class="cds-accordion-button cds-nav-link" aria-expanded="false" aria-controls="nav-0">
+            <span>Mega menu</span>
+          </button>
+          <div id="nav-0" class="cds-nav-submenu cds-nav-megamenu row"  aria-hidden="true">
+            <div class="col-4">
+                <ul>
+                    <li><a href="#">Page title</a></li>
+                    <li><a href="#">Page title one</a></li>
+                    <li><a href="#">Page title two</a></li>
+                    <li><a href="#">Link</a></li>
+                  </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li><a href="#">Page title</a></li>
+                    <li><a href="#">Page title one</a></li>
+                    <li><a href="#">Page title two</a></li>
+                    <li><a href="#">Link</a></li>
+                  </ul>
+            </div>
+          </div>
+        </li>
+			</ul>		
+      <div class="cds-nav-secondary">
+        <ul class="cds-unstyled-list cds-nav-secondary-links">
+            <li>
+              <a href="#">
+                Secondary nav
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                External link
+              </a>
+            </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
