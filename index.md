@@ -10,7 +10,7 @@ layout: default
 	  <div class="cds-logo" id="logo">
 	    <em class="cds-logo-text">
 	      <a href="#" title="Home">
-	        <img src="img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
+	        <img src="assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
 			    <h1 class="cds-header-title">Chicago</h1>
 	      </a>
 	    </em>
