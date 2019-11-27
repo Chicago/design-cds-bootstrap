@@ -130,8 +130,33 @@ $h6-font-size:                $font-size-base !default;
 
 $headings-font-family:        $font-serif !default;
 
-// Navbar
+// Navbar overrrides
 $navbar-padding-y:                  0 !default; //$spacer / 2 !default;
 $navbar-padding-x:                  15px !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
+
+
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$input-btn-padding-y:         .575rem !default;
+$input-btn-padding-x:         .75rem !default;
+
+
+// Forms
+$form-group-margin-bottom:     1.5rem !default; 
+
+$input-border-color:                    $gray-600 !default;
+
+$input-border-radius:                   0 !default;
+$input-border-radius-lg:                0 !default;
+$input-border-radius-sm:                0 !default;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+$btn-font-family:             $font-serif !default; //Overrride to use Roboto
+
