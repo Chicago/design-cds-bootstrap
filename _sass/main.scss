@@ -7,8 +7,14 @@
 @import "../bootstrap/scss/bootstrap.scss";
 
 html {
-	font-size:10px;
+	font-size:62.5%;
 }
+
+h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
 /*
 site seal
 */
