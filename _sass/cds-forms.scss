@@ -6,3 +6,11 @@
 .form-group {
   margin-bottom: $form-group-margin-bottom;
 }
+
+.custom-select {
+  -webkit-appearance: none;
+}
+
+.custom-file-label::after {
+  font-family: $font-serif;
+}
