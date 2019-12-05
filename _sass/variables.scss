@@ -104,7 +104,7 @@ $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberati
 // $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
 // $font-size-base effects the font size of the body text
 $font-size-root:              null !default;
-$font-size-base:              1.7rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1.5rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 
@@ -120,12 +120,12 @@ $line-height-base:            1.5 !default;
 $line-height-lg:              2 !default;
 $line-height-sm:              1.25 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h1-font-size:                4.4rem !default; //$font-size-base * 2.93 !default;
+$h2-font-size:                3.4rem !default; //$font-size-base * 2.27 !default;
+$h3-font-size:                2.4rem !default; //$font-size-base * 1.6 !default;
+$h4-font-size:                1.9rem !default; //$font-size-base * 1.27 !default;
+$h5-font-size:                1.5rem !default; //$font-size-base !default;
+$h6-font-size:                1.3rem !default; //$font-size-base !default;
 
 $headings-font-family:        $font-serif !default;
 
@@ -134,8 +134,6 @@ $navbar-padding-y:                  0 !default; //$spacer / 2 !default;
 $navbar-padding-x:                  15px !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
-
-
 
 // Buttons + Forms
 //
