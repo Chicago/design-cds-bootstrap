@@ -255,10 +255,10 @@ layout: page
       </div>
 
       <div class="mt-2">
-        <label class="custom-file">
-          <input type="file" id="file" class="custom-file-input">
-          <span class="custom-file-control"></span>
-        </label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
       </div>
 
 
