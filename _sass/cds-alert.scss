@@ -1,0 +1,48 @@
+//
+// Base styles
+//
+
+.alert {
+    border: 0;
+    border-radius: 0rem;
+  }
+  
+.alert:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: .5rem;
+}
+
+.alert-icon-sm {
+    font-size: 1.8rem;
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 0.8rem;
+    color: $color-black;
+}
+
+.alert-icon-lg {
+    font-size: 2.8rem;
+    margin-left: 1rem;
+    color: $color-black;
+    float: left;
+}
+
+.alert-content {
+    padding-left: 5.5rem;
+}
+// Alternate styles
+// Generate contextual modifier classes for colorizing the alert.
+
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+  }
+
+  .alert-#{$color}:before {
+    background-color: darken(theme-color-level($color, $alert-border-level), 30%);
+  }
+}
