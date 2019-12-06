@@ -356,22 +356,22 @@ layout: page
 
       <!--Alerts-->
       <div class="mb-2 alert alert-primary" role="alert">
-        This is a primary alert with <a href="#" class="alert-link">an example link</a>.
+        <div class="alert-icon-sm"><i class="fas fa-info-circle"></i></div>This is a primary alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-secondary" role="alert">
         This is a secondary alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-success" role="alert">
-        This is a success alert with <a href="#" class="alert-link">an example link</a>.
+        <div class="alert-icon-sm"><i class="fas fa-check-circle"></i></div>This is a success alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-danger" role="alert">
-        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+        <div class="alert-icon-sm"><i class="fas fa-exclamation-triangle"></i></div>This is a danger alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-warning" role="alert">
-        This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+        <div class="alert-icon-sm"><i class="fas fa-exclamation-circle"></i></div>This is a warning alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-info" role="alert">
-        This is a info alert with <a href="#" class="alert-link">an example link</a>.
+        <div class="alert-icon-sm"><i class="fas fa-info-circle"></i></div>This is a info alert with <a href="#" class="alert-link">an example link</a>.
       </div>
       <div class="mb-2 alert alert-light" role="alert">
         This is a light alert with <a href="#" class="alert-link">an example link</a>.
@@ -379,6 +379,44 @@ layout: page
       <div class="mb-2 alert alert-dark" role="alert">
         This is a dark alert with <a href="#" class="alert-link">an example link</a>.
       </div>
+
+
+<!-- EXTENDED CARDS -->
+      <div class="mb-2 alert alert-primary" role="alert">
+          <div class="alert-icon-lg"><i class="fas fa-info-circle"></i></div>
+          <div class="alert-content">
+              <h4 class="alert-heading">Well done!</h4>
+              <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that
+                you can see how spacing within an alert works with this kind of content. Also here is an <a href="javascript:void(0)" class="alert-link">example alert link</a>.</p>
+          </div>
+        </div>
+
+        <div class="mb-2 alert alert-success" role="alert">
+            <div class="alert-icon-lg"><i class="fas fa-check-circle"></i></div>
+            <div class="alert-content">
+                <h4 class="alert-heading">Well done!</h4>
+                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that
+                  you can see how spacing within an alert works with this kind of content. Also here is an <a href="javascript:void(0)" class="alert-link">example alert link</a>.</p>
+            </div>
+          </div>
+
+          <div class="mb-2 alert alert-danger" role="alert">
+              <div class="alert-icon-lg"><i class="fas fa-exclamation-triangle"></i></div>
+              <div class="alert-content">
+                  <h4 class="alert-heading">Well done!</h4>
+                  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that
+                    you can see how spacing within an alert works with this kind of content. Also here is an <a href="javascript:void(0)" class="alert-link">example alert link</a>.</p>
+              </div>
+            </div>
+
+            <div class="mb-2 alert alert-warning" role="alert">
+                <div class="alert-icon-lg"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="alert-content">
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that
+                      you can see how spacing within an alert works with this kind of content. Also here is an <a href="javascript:void(0)" class="alert-link">example alert link</a>.</p>
+                </div>
+              </div>
 
 
       <div class="mt-2">
