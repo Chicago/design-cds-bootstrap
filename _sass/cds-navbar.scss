@@ -190,7 +190,8 @@
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
-    width:5.8rem;
+	width:5.8rem;
+	font-family: $font-serif;
     
     &:hover {
         color:$white;
@@ -650,7 +651,8 @@
 	}
 }
 .cds-nav-secondary-links{
-	margin-top:2.4rem
+	margin-top:2.4rem;
+	font-size: 1.35rem;
 }
 
 @include media-breakpoint-up(md){
@@ -673,7 +675,7 @@
 }
 @media screen and (max-width: 768px){
 	.cds-nav-secondary-links li{
-		display:inline;
+		//display:inline;
 		padding-left:0rem;
 		//margin-bottom: 0px;
 		line-height: 1.3;
@@ -822,10 +824,25 @@
 		text-decoration:underline
 	}
 }
+
 .cds-nav-submenu li{
 	font-size:1.5rem;
 	margin-bottom:0
 }
+
+.cds-nav-megamenu ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	width: 100%;
+  }
+  
+  .cds-nav-megamenu div {
+	padding-left: 0;
+  }
+
 .cds-nav-close{
 	background-color:transparent;
 	border:0;
