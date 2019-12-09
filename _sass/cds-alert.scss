@@ -35,13 +35,9 @@
     padding-left: 5.5rem;
 }
 // Alternate styles
-// Generate contextual modifier classes for colorizing the alert.
+// Generate contextual modifier classes for colorizing the alert:before modification.
 
 @each $color, $value in $theme-colors {
-  .alert-#{$color} {
-    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
-  }
-
   .alert-#{$color}:before {
     background-color: darken(theme-color-level($color, $alert-border-level), 30%);
   }
