@@ -15,7 +15,7 @@ layout: page
           <h1>Sample Title</h1>
           <p>January 22, 2020 by <a href="#">Jean Du Sable</a></p>
   
-          <p>This conten page shows a the different types of content that’s supported and styled with the Chicago design System and Bootstrap 4.4.1. Basic typography, images, and code are all supported.</p>
+          <p>This content page shows all the different types of content that is supported and styled with the Chicago design System and Bootstrap 4.4.1. It shows how basic typography, images, code, media and tables are supported.</p>
           <hr>
           <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
           <blockquote>
