@@ -366,11 +366,13 @@ layout: page
         <div class="alert-icon-sm"><i class="fas fa-check-circle"></i></div>
         <div>This is a success alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
-      <div class="mb-2 alert alert-danger" role="alert">
-        <div class="alert-icon-sm"><i class="fas fa-exclamation-triangle"></i></div>This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+      <div class="mb-2 alert alert-danger d-flex" role="alert">
+        <div class="alert-icon-sm"><i class="fas fa-exclamation-triangle"></i></div>
+        <div>This is a danger alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
-      <div class="mb-2 alert alert-warning" role="alert">
-        <div class="alert-icon-sm"><i class="fas fa-exclamation-circle"></i></div>This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+      <div class="mb-2 alert alert-warning d-flex" role="alert">
+        <div class="alert-icon-sm"><i class="fas fa-exclamation-circle"></i></div>
+        <div>This is a warning alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
       <div class="mb-2 alert alert-info" role="alert">
         <div class="alert-icon-sm"><i class="fas fa-info-circle"></i></div>This is a info alert with <a href="#" class="alert-link">an example link</a>.
