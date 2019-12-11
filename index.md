@@ -355,14 +355,16 @@ layout: page
     <div class="col-lg-3 col-md-6">
 
       <!--Alerts-->
-      <div class="mb-2 alert alert-primary" role="alert">
-        <div class="alert-icon-sm"><i class="fas fa-info-circle"></i></div>This is a primary alert with <a href="#" class="alert-link">an example link</a>.
+      <div class="mb-2 alert alert-primary d-flex" role="alert">
+        <div class="alert-icon-sm"><i class="fas fa-info-circle"></i></div>
+        <div>This is a primary alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
-      <div class="mb-2 alert alert-secondary" role="alert">
-        This is a secondary alert with <a href="#" class="alert-link">an example link</a>.
+      <div class="mb-2 alert alert-secondary d-flex" role="alert">
+       <div> This is a secondary alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
-      <div class="mb-2 alert alert-success" role="alert">
-        <div class="alert-icon-sm"><i class="fas fa-check-circle"></i></div>This is a success alert with <a href="#" class="alert-link">an example link</a>.
+      <div class="mb-2 alert alert-success d-flex" role="alert">
+        <div class="alert-icon-sm"><i class="fas fa-check-circle"></i></div>
+        <div>This is a success alert with <a href="#" class="alert-link">an example link</a>.</div>
       </div>
       <div class="mb-2 alert alert-danger" role="alert">
         <div class="alert-icon-sm"><i class="fas fa-exclamation-triangle"></i></div>This is a danger alert with <a href="#" class="alert-link">an example link</a>.
