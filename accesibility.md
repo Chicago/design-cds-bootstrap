@@ -20,7 +20,7 @@ layout: page
 
 <p><strong>Disclaimer</strong> This resource is intended to help the City of Chicago develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the <a href="http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards">Access Board</a> for information on 508 and their compliance criteria.</p>
 
-<h3 id="resources">Resources</h3>
+<h2 id="resources">Resources</h2>
 
 <h3 id="tools">Tools</h3>
 
