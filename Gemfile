@@ -22,6 +22,9 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 end
 
+# Security alert warning
+gem "rack", ">= 1.6.12"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
