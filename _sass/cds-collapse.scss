@@ -1,15 +1,19 @@
 
-.accordion-toggle::after {
+.accordion-toggle{
+  &::after{
     font-family: "Font Awesome 5 Free";
-    content: "\\f068";
+    content: $plus-sign;
     float: right;
     color: #626668;
     margin-top: -25px;
     font-weight: 900;
   }
+    
+
+    &.collapsed::after {
+      font-family: "Font Awesome 5 Free";
+      content: $minus-sign;
+      font-weight: 900;
+    }
+}
   
-  .accordion-toggle.collapsed::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\\f067";
-    font-weight: 900;
-  }

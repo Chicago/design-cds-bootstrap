@@ -157,3 +157,11 @@ $input-border-radius-sm:                0 !default;
 // For each of Bootstrap's buttons, define text, background, and border color.
 $btn-font-family:             $font-serif !default; //Overrride to use Roboto
 
+//UNICODE Workaround
+
+@function unicode($str) {
+    @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
+
+$plus-sign:                unicode("f068") !default;
+$minus-sign:               unicode("f067") !default;
