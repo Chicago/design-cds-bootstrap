@@ -1,0 +1,45 @@
+
+.cds-hero {
+    font-family: $font-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-position: 50%;
+    background-size: cover;
+    color: $white;
+   
+  }
+  
+  @media (min-width: 40em) {
+               .cds-hero-callout {
+                              max-width: 32rem;
+               }
+  }
+  
+  .cds-hero-callout {
+    background-color: #162e51;
+    padding: 3.2rem;
+
+    p {
+        font-size:1.6rem;
+    }
+  }
+
+  
+  .cds-hero-heading {
+    margin-bottom: 0;
+    margin-top: 0;
+    clear: both;
+    font-family: $font-logo;
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: $color-bahama-blue;
+    line-height: 1.2;
+
+    &+* {
+        margin-top: 1em;
+    }
+  }
+
+  
