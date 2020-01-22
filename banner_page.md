@@ -3,24 +3,30 @@
 layout: page
 
 ---
-<!-- JUMBOTRON-->
+<!-- HERO-->
 <style>
-      .jumbotron {
+      .cds-hero {
           background-image: url('https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg');
-          padding-bottom: 6rem;
-          background-size: cover;
+          background-position: 80%;
       }
 </style>
 
-<div class="jumbotron">
-  <div class="container text-white">
-    <h1 class="display-3">City Agency</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+<section class="cds-hero">
+  <div class="container">
+    <div class="cds-hero-callout">
+      <h1 class="cds-hero-heading">
+          <span class="text-white">Hero callout:</span><br>
+          Bring attention to a project priority
+      </h1>
+          <p>Support the callout with some short explanatory text. You don’t need more than a couple of sentences.</p>
+          <a class="btn btn-outline-light  btn-lg" href="javascript:void(0)">Call to action</a>
+    </div>
   </div>
-</div>
+</section> 
 <!-- CONTENT-->
 <main role="main" class="container">
     <div class="row">
+    <div class="col-12">
   <nav aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb mt-2">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -28,6 +34,7 @@ layout: page
       <li class="breadcrumb-item active" aria-current="page">Landing Page (Banner)</li>
     </ol>
   </nav>
+  </div>
     </div>
     <div class="row">
       <div class="col-md-8">
@@ -164,7 +171,7 @@ layout: page
             
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </div>
                 </div>
               </div>
@@ -178,7 +185,7 @@ layout: page
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
                   </div>
                 </div>
               </div>
@@ -192,7 +199,7 @@ layout: page
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
                   </div>
                 </div>
               </div>
