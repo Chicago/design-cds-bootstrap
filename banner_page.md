@@ -112,8 +112,7 @@ layout: page
                   </tr>
                 </tbody>
               </table>
-              <hr>
-              <h3>Collapsible Elements</h3>
+              
         </div>
   
   
