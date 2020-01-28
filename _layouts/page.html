@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/all.min.css" type="text/css">
     <!-- Datepicker -->
     <link rel="stylesheet" href="assets/css/datepicker.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/datepicker-cds.css" type="text/css" />
     <!-- FB -->
     <meta property="og:site_name" content="The Chicago Design System: Bootstrap implementation">
     <meta property="og:type" content="website" />
@@ -205,5 +206,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="assets/js/datepicker.js"></script>
     <script src="assets/js/uswds.min.js"></script>
+
+    <!-- DATEPICKER Init-->
+    <script>
+    (function($) {
+      $(function() {
+        const getNavigatorLanguage = () => (navigator.languages && navigator.languages.length) ? navigator.languages[0] : navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        $(".datepicker")
+          .filter(function() {
+            return !this.disabled && !this.readOnly;
+          })
+          .datepicker({ gainFocusOnConstruction: false, markup: 'bootstrap4' });
+         $('#date13').datepicker('next', '#date14');
+      });
+    })(this.jQuery);
+  </script>
   </body>
 </html>
