@@ -615,25 +615,7 @@ layout: page
     </div>
   </div>
   <div class="row mb-5 pt-5" id="datepicker">
-			<div class="row bg-light py-4 mb-5">
-				<div class="container">	
-					<div class="d-flex justify-content-between">
-						<h2>
-							<span class="fa fa-calendar mr-1"></span>
-							Date Picker
-						</h2>
-						<h2>
 
-							<a href="http://eureka2.github.io/ab-datepicker/" target="_blank"
-								data-toggle="tooltip" data-placement="bottom" title="Date Picker docs"><span
-									class="fa fa-book fw"></span></a>
-
-							<a href="#top" class="ml-3"><span class="fa fa-chevron-up fw"></span></a>
-						</h2>
-					</div>
-
-				</div>
-			</div>
 			<div class="container-fluid">
 				<div class="row px-5">
 					<div class="col-12">
