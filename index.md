@@ -270,7 +270,7 @@ layout: page
       </div>
       </form>
     </div>
- </div>
+
       <!--Pagination-->
       <div class="mt-2">
         <nav aria-label="...">
