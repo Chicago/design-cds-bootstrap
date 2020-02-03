@@ -264,7 +264,7 @@ layout: page
      <form>
       <div class="form-group">
 								<label class="col-form-label" for="date1">
-									Date:
+									Datepicker:
 								</label>
 								<input type="text" name="date1" id="date1" class="form-control datepicker">
       </div>
