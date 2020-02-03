@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: city-page
 
 ---
 <!-- HERO-->
