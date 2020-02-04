@@ -37,7 +37,7 @@ layout: city-page
     <ol class="breadcrumb mt-2">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
       <li class="breadcrumb-item"><a href="#">Departments</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Department Page</li>
+      <li class="breadcrumb-item active" aria-current="page">Innovation & Technology</li>
     </ol>
   </nav>
   </div>
@@ -248,7 +248,7 @@ layout: city-page
 	<div class="card-header" id="headingOne">
 	 
 		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		  <h4 class="mb-0">Apply For</h4>
+		  <h5 class="mb-0">Apply For</h5>
 		</a>
 	 
 	</div>
@@ -274,7 +274,7 @@ layout: city-page
 	<div class="card-header" id="headingCheckStatus">
 	 
 		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseCheckStatus" aria-expanded="false" aria-controls="collapseOne">
-		  <h4 class="mb-0">Check Status Of</h4>
+		  <h5 class="mb-0">Check Status Of</h5>
 		</a>
 	 
 	</div>
