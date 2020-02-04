@@ -16,11 +16,10 @@ layout: city-page
   <div class="container">
     <div class="cds-hero-callout">
       <h1 class="cds-hero-heading">
-          <span class="text-white">Hero callout:</span><br>
-          Bring attention to a project priority
+          <span class="text-white">INNOVATION AND TECHNOLOGY</span>
       </h1>
-          <p>Support the callout with some short explanatory text. You don’t need more than a couple of sentences.</p>
-          <a class="btn btn-outline-light  btn-lg" href="javascript:void(0)">Call to action</a>
+          <p>DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology.</p>
+          
     </div>
   </div>
 </section> 
@@ -41,9 +40,9 @@ layout: city-page
       <div class="col-md-8">
   
         <div>
-          <h1>Page Title</h1>
+          <h1>INNOVATION AND TECHNOLOGY</h1>
   
-          <p>This content page shows all the different types of content that is supported and styled with the Chicago design System and Bootstrap 4.4.1. It shows how basic typography, images, code, media and tables are supported.</p>
+          <p>The City's innovation and information technology organization. DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology.</p>
           <hr>
 
 <!--Cards-->
