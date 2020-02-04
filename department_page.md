@@ -172,7 +172,7 @@ layout: city-page
       </div><!-- /.main-content -->
   
       <aside class="col-md-4">
-<div class="card bg-light mb-2 d-inline-block">
+<div class="card bg-light mb-2">
         <div class="card-header"><i class="fas fa-id-card" aria-hidden="true"></i>&nbsp;Department Main Office</div>
         <div class="card-body">
           <h4 class="card-title">Innovation and Technology</h4>
