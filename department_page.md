@@ -172,10 +172,34 @@ layout: city-page
       </div><!-- /.main-content -->
   
       <aside class="col-md-4">
-        <div class="p-4 mb-3 bg-light rounded">
-          <h4 class="font-italic">About</h4>
-          <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<div class="card bg-light mb-2 d-inline-block">
+        <div class="card-header"><i class="fas fa-id-card" aria-hidden="true"></i>&nbsp;Department Main Office</div>
+        <div class="card-body">
+          <h4 class="card-title">Innovation and Technology</h4>
+					<ul class="no-bullets no-indent list-unstyled">
+						<li>
+								Phone: 312.744.5844<br>
+				
+							<br>								
+                                <a class="email " title="Contact Us" href="#" data-toggle="modal" data-target="#contactUsModal">Contact Us</a>                  
+							   
+						</li>
+						
+						<li>
+							
+								333 S. State Street
+								<br>
+							
+							
+								Suite 420<br>
+							
+							Chicago, IL 60604&nbsp;&nbsp;&nbsp;<br><a style="font-size:95%" class="no-bullets " href="https://www.google.com/maps/dir/333+S.+State+Street%2C+Chicago%2C+IL%2C+60604" target="_blank" title="Get Directions">Get Directions</a>
+						</li>
+									 
+					</ul>       
         </div>
+      </div>
+      
   
         <div class="p-4">
             <h4 class="font-italic">Side Navigation</h4>
