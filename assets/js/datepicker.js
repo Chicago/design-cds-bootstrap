@@ -213,6 +213,7 @@
 			"full_format": "EEEE, MMMM d, y",
 			"long_format": "MMMM d, y",
 			"medium_format": "MMM d, y",
+			"default_format": "MM/d/y",
 			"short_format": "M/d/yy",
 			"firstday_of_week": 0
 		};
