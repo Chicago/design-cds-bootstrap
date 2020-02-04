@@ -5,12 +5,20 @@
 
 .form-group {
   margin-bottom: $form-group-margin-bottom;
+  label {
+    font-family: $font-serif;
+  }
 }
 
 .custom-select {
   -webkit-appearance: none;
+  font-family: $font-serif;
 }
 
 .custom-file-label::after {
+  font-family: $font-serif;
+}
+
+.form-control, .form-check-label .custom-control-label {
   font-family: $font-serif;
 }
