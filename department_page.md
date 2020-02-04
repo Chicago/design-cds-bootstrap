@@ -164,9 +164,8 @@ layout: city-page
 	</div>
 <!--End Cards-->    
 <!--Start  fs Content-->
-<div class="container-fluid dept-full-description">
-	 <div class="row"> 
-		<div class="col-12">	
+<div class="dept-full-description">
+	
 			<p>The Department of Innovation and Technology (DoIT) is the City of Chicago's central IT organization, providing a number of technology and telecommunication services to departments, the Mayor, Aldermen, residents, businesses, and tourists.</p>
 <p>DoIT works with partners to realize Chicago's potential as a city where technology fuels opportunity, inclusion, engagement, and innovation for all by:</p>
 <ul>
@@ -178,8 +177,7 @@ layout: city-page
 <li>Supporting <a title="public access to technology" href="/city/en/depts/doit/dataset/public_technologyresources.html">public access to technology</a> at City facilities</li>
 <li>Building strategic partnerships</li>
 </ul>
-		</div>
-	</div>
+
 </div>
 <!--End FD -->
 
