@@ -31,7 +31,7 @@ layout: city-page
     <ol class="breadcrumb mt-2">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
       <li class="breadcrumb-item"><a href="#">Departments</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Department Page Title</li>
+      <li class="breadcrumb-item active" aria-current="page">Department Page</li>
     </ol>
   </nav>
   </div>
@@ -40,11 +40,13 @@ layout: city-page
       <div class="col-md-8">
   
         <div>
-          <h1>Sample Title</h1>
-         
+          <h1>Page Title</h1>
+  
+          <p>This content page shows all the different types of content that is supported and styled with the Chicago design System and Bootstrap 4.4.1. It shows how basic typography, images, code, media and tables are supported.</p>
+          <hr>
 
-      
- <div class="container-fluid featured-services">
+<!--Cards-->
+<div class="container-fluid featured-services">
 		<div class="row">
 			<div class="col-xs-12">		
 				<h3 class="list-header">Featured Services and Programs</h3> 
@@ -56,7 +58,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://data.cityofchicago.org/" target="_blank" alt="Image of a circle with the Chicago flag in it">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/data-portal-icon.png" title="Image of a circle with the Chicago flag in it">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/data-portal-icon.png" title="Image of a circle with the Chicago flag in it">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="https://data.cityofchicago.org/" target="_blank" title="Image of a circle with the Chicago flag in it">Data Portal  </a></h5>
@@ -69,7 +71,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="http://techplan.cityofchicago.org/" target="_blank" alt="Chicago Technology Plan">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/tech-plan-icon.png" title="Chicago Technology Plan">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/tech-plan-icon.png" title="Chicago Technology Plan">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="http://techplan.cityofchicago.org/" target="_blank" title="Chicago Technology Plan">Chicago Technology Plan  </a></h5>
@@ -82,7 +84,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="/contenthttps://www.chicago.gov/city/en/depts/doit/provdrs/gis.html" target="_self" alt="A stand with colorful arrows in different directions">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/map-gis-icon.png" title="A stand with colorful arrows in different directions">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/map-gis-icon.png" title="A stand with colorful arrows in different directions">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="/contenthttps://www.chicago.gov/city/en/depts/doit/provdrs/gis.html" target="_self" title="A stand with colorful arrows in different directions">Maps/GIS DATA  </a></h5>
@@ -95,7 +97,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/depts/doit/dataset/public_technologyresources.html" target="_blank" alt="A computer monitor with circles around it">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/connect-chicago-icon.png" title="A computer monitor with circles around it">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/connect-chicago-icon.png" title="A computer monitor with circles around it">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="https://www.chicago.gov/city/en/depts/doit/dataset/public_technologyresources.html" target="_blank" title="A computer monitor with circles around it">Connect Chicago  </a></h5>
@@ -108,7 +110,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="http://digital.cityofchicago.org/" target="_blank" alt="an image with a red star in a blue circle">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/digital-chicago-icon.png" title="an image with a red star in a blue circle">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/digital-chicago-icon.png" title="an image with a red star in a blue circle">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="http://digital.cityofchicago.org/" target="_blank" title="an image with a red star in a blue circle">Chicago Digital  </a></h5>
@@ -121,7 +123,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/progs/tech.html" target="_self" alt="Information about Citywide Technology">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/info-technology-icon.png" title="Information about Citywide Technology">               
+								<img src="www.chicago.gov/city/depts/doit/ServiceIcons/info-technology-icon.png" title="Information about Citywide Technology">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="https://www.chicago.gov/city/en/progs/tech.html" target="_self" title="Information about Citywide Technology">Information about Citywide Technology  </a></h5>
@@ -133,11 +135,11 @@ layout: city-page
 					
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
-							 <a href="/content/damhttps://www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" alt="Hardware Software Standards">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/hardware-software-icon.png" title="Hardware Software Standards">               
+							 <a href="www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" alt="Hardware Software Standards">  
+								<img src="https://www.chicago.gov/city/depts/doit/ServiceIcons/hardware-software-icon.png" title="Hardware Software Standards">               
 							 </a>
 							<div class="caption" style="text-align:center">
-								<h5><a href="/content/damhttps://www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" title="Hardware Software Standards">Hardware Software Standards  </a></h5>
+								<h5><a href="www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" title="Hardware Software Standards">Hardware Software Standards  </a></h5>
 								<p style="text-align:center"> </p>
 							</div>
 						</div>
@@ -147,7 +149,7 @@ layout: city-page
 					<div class="col-xs-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/depts/doit/supp_info/list_of_contractors.html" target="_self" alt="List of Contractors">  
-								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/contractors-list-icon.png" title="List of Contractors">               
+								<img src="https://www.chicago.gov/city/depts/doit/ServiceIcons/contractors-list-icon.png" title="List of Contractors">               
 							 </a>
 							<div class="caption" style="text-align:center">
 								<h5><a href="https://www.chicago.gov/city/en/depts/doit/supp_info/list_of_contractors.html" target="_self" title="List of Contractors">List of Contractors  </a></h5>
@@ -160,8 +162,11 @@ layout: city-page
 			</div>
 		</div>
 	</div>
-   
-  
+<!--End Cards-->    
+
+
+	
+        </div>
   
   
       </div><!-- /.main-content -->
