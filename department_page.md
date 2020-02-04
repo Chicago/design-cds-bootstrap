@@ -244,7 +244,7 @@ layout: city-page
     <div class="card-body">
 		<div class="accordion" id="iWantToAccordion">
 			<!--Cards-->
-  <div class="card">
+  <div class="card mb-2">
 	<div class="card-header" id="headingOne">
 	 
 		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
