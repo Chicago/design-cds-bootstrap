@@ -30,8 +30,8 @@ layout: city-page
   <nav aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb mt-2">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">page</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Landing Page (Banner)</li>
+      <li class="breadcrumb-item"><a href="#">Departments</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Department Page Title</li>
     </ol>
   </nav>
   </div>
@@ -41,86 +41,127 @@ layout: city-page
   
         <div>
           <h1>Sample Title</h1>
-          <p>January 22, 2020 by <a href="#">Jean Du Sable</a></p>
+         
+
+      
+ <div class="container-fluid featured-services">
+		<div class="row">
+			<div class="col-xs-12">		
+				<h3 class="list-header">Featured Services and Programs</h3> 
+				<div class="row flex-row">
+
+
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="https://data.cityofchicago.org/" target="_blank" alt="Image of a circle with the Chicago flag in it">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/data-portal-icon.png" title="Image of a circle with the Chicago flag in it">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="https://data.cityofchicago.org/" target="_blank" title="Image of a circle with the Chicago flag in it">Data Portal  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="http://techplan.cityofchicago.org/" target="_blank" alt="Chicago Technology Plan">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/tech-plan-icon.png" title="Chicago Technology Plan">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="http://techplan.cityofchicago.org/" target="_blank" title="Chicago Technology Plan">Chicago Technology Plan  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="/contenthttps://www.chicago.gov/city/en/depts/doit/provdrs/gis.html" target="_self" alt="A stand with colorful arrows in different directions">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/map-gis-icon.png" title="A stand with colorful arrows in different directions">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="/contenthttps://www.chicago.gov/city/en/depts/doit/provdrs/gis.html" target="_self" title="A stand with colorful arrows in different directions">Maps/GIS DATA  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="https://www.chicago.gov/city/en/depts/doit/dataset/public_technologyresources.html" target="_blank" alt="A computer monitor with circles around it">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/connect-chicago-icon.png" title="A computer monitor with circles around it">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="https://www.chicago.gov/city/en/depts/doit/dataset/public_technologyresources.html" target="_blank" title="A computer monitor with circles around it">Connect Chicago  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="http://digital.cityofchicago.org/" target="_blank" alt="an image with a red star in a blue circle">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/digital-chicago-icon.png" title="an image with a red star in a blue circle">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="http://digital.cityofchicago.org/" target="_blank" title="an image with a red star in a blue circle">Chicago Digital  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="https://www.chicago.gov/city/en/progs/tech.html" target="_self" alt="Information about Citywide Technology">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/info-technology-icon.png" title="Information about Citywide Technology">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="https://www.chicago.gov/city/en/progs/tech.html" target="_self" title="Information about Citywide Technology">Information about Citywide Technology  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="/content/damhttps://www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" alt="Hardware Software Standards">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/hardware-software-icon.png" title="Hardware Software Standards">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="/content/damhttps://www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" title="Hardware Software Standards">Hardware Software Standards  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+ 
+					
+					<div class="col-xs-6 col-sm-3 xcol">
+                        <div class="thumbnail">
+							 <a href="https://www.chicago.gov/city/en/depts/doit/supp_info/list_of_contractors.html" target="_self" alt="List of Contractors">  
+								<img src="/content/damhttps://www.chicago.gov/city/depts/doit/ServiceIcons/contractors-list-icon.png" title="List of Contractors">               
+							 </a>
+							<div class="caption" style="text-align:center">
+								<h5><a href="https://www.chicago.gov/city/en/depts/doit/supp_info/list_of_contractors.html" target="_self" title="List of Contractors">List of Contractors  </a></h5>
+								<p style="text-align:center"> </p>
+							</div>
+						</div>
+					</div>   
+    
+				</div> 
+			</div>
+		</div>
+	</div>
+   
   
-          <p>This content page shows all the different types of content that is supported and styled with the Chicago design System and Bootstrap 4.4.1. It shows how basic typography, images, code, media and tables are supported.</p>
-          <hr>
-          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-          <blockquote>
-            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          </blockquote>
-          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          <h2>Heading</h2>
-          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          <h3>Sub-heading</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          <pre><code>Example code block</code></pre>
-          <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <h3>Sub-heading</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <ul>
-            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-            <li>Donec id elit non mi porta gravida at eget metus.
-                    <ul>
-                            <li>Phasellus iaculis neque</li>
-                            <li>Purus sodales ultricies</li>
-                            <li>Vestibulum laoreet porttitor sem</li>
-                            <li>Ac tristique libero volutpat at</li>
-                          </ul>
-            </li>
-            <li>Nulla vitae elit libero, a pharetra augue.</li>
-          </ul>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          <ol>
-            <li>Vestibulum id ligula porta felis euismod semper.</li>
-            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-          </ol>
-          <hr>
-          <h4>Sub-heading</h4>
-          <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          <div class="media">
-                <svg class="bd-placeholder-img align-self-start mr-3" width="64" height="64" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 64x64"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="17%" y="55%" fill="#dee2e6" dy=".1rem">64x64</text></svg>
-                <div class="media-body">
-                  <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                  <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            
-        <h6>Tables</h6>
-        <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-        </div>
   
   
       </div><!-- /.main-content -->
