@@ -201,13 +201,13 @@ layout: city-page
       </div>
       
   <div class="card  mb-2">
-        <div class="card-header"><i class="fas fa-info-circle" aria-hidden="true"></i>Department Facts</div>
+        <div class="card-header"><i class="fas fa-info-circle" aria-hidden="true"></i>&nbsp;Department Facts</div>
         <div class="card-body">
           <h4 class="card-title">About Us:</h4>
 			<ul class="no-bullets no-indent blue list-unstyled">
-				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_mission.html">Mission</a></li>
-				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_leadership.html">Leadership</a></li>
-				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_our_structure.html">Our Structure</a></li>
+				<li class="thefacts-levelone"><a href="https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_mission.html">Mission</a></li>
+				<li class="thefacts-levelone"><a href="https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_leadership.html">Leadership</a></li>
+				<li class="thefacts-levelone"><a href="https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_our_structure.html">Our Structure</a></li>
 
 			</ul>
         </div>
