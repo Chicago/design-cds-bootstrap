@@ -56,7 +56,7 @@ layout: city-page
 
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://data.cityofchicago.org/" target="_blank" alt="Image of a circle with the Chicago flag in it">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/data-portal-icon.png" title="Image of a circle with the Chicago flag in it">               
@@ -69,7 +69,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="http://techplan.cityofchicago.org/" target="_blank" alt="Chicago Technology Plan">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/tech-plan-icon.png" title="Chicago Technology Plan">               
@@ -82,7 +82,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="/contenthttps://www.chicago.gov/city/en/depts/doit/provdrs/gis.html" target="_self" alt="A stand with colorful arrows in different directions">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/map-gis-icon.png" title="A stand with colorful arrows in different directions">               
@@ -95,7 +95,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/depts/doit/dataset/public_technologyresources.html" target="_blank" alt="A computer monitor with circles around it">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/connect-chicago-icon.png" title="A computer monitor with circles around it">               
@@ -108,7 +108,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="http://digital.cityofchicago.org/" target="_blank" alt="an image with a red star in a blue circle">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/digital-chicago-icon.png" title="an image with a red star in a blue circle">               
@@ -121,7 +121,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/progs/tech.html" target="_self" alt="Information about Citywide Technology">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/info-technology-icon.png" title="Information about Citywide Technology">               
@@ -134,7 +134,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="www.chicago.gov/city/depts/doit/general/ChicagoHWSWStandards.pdf" target="_blank" alt="Hardware Software Standards">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/hardware-software-icon.png" title="Hardware Software Standards">               
@@ -147,7 +147,7 @@ layout: city-page
 					</div>   
  
 					
-					<div class="col-xs-6 col-sm-3 xcol">
+					<div class="col-6 col-sm-3 xcol">
                         <div class="thumbnail">
 							 <a href="https://www.chicago.gov/city/en/depts/doit/supp_info/list_of_contractors.html" target="_self" alt="List of Contractors">  
 								<img src="https://www.chicago.gov/dam/city/depts/doit/ServiceIcons/contractors-list-icon.png" title="List of Contractors">               
