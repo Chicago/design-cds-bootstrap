@@ -10,6 +10,12 @@ layout: city-page
           background-position: 80%;
       }
 	.xcol { margin-bottom:20px; }
+	#iWantToAccordion .card-body { 
+		padding:0px; 
+		border: 0px;
+	    margin-left: -1px;
+	    margin-right: -1px;	
+	}
 </style>
 
 <section class="cds-hero">
