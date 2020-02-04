@@ -172,7 +172,7 @@ layout: city-page
       </div><!-- /.main-content -->
   
       <aside class="col-md-4">
-<div class="card bg-light mb-2">
+<div class="card mb-2">
         <div class="card-header"><i class="fas fa-id-card" aria-hidden="true"></i>&nbsp;Department Main Office</div>
         <div class="card-body">
           <h4 class="card-title">Innovation and Technology</h4>
@@ -200,34 +200,19 @@ layout: city-page
         </div>
       </div>
       
-  
-        <div class="p-4">
-            <h4 class="font-italic">Side Navigation</h4>
-            <ul class="cds-sidenav  flex-column">
-                <li>
-                    <a  href="#" class="active">Active</a>
-                    <ul class="cds-sidenav-sub  flex-column">
-                            <li>
-                                <a  href="#">Active</a>
-                            </li>
-                            <li >
-                                <a href="#">Link</a>
-                            </li>
-                            
-                            <li >
-                                <a class="disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                </li>
-                <li >
-                    <a href="#">Link</a>
-                </li>
-                
-                <li >
-                    <a class="disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+  <div class="card  mb-2">
+        <div class="card-header"><i class="fas fa-info-circle" aria-hidden="true"></i>Department Facts</div>
+        <div class="card-body">
+          <h4 class="card-title">About Us:</h4>
+			<ul class="no-bullets no-indent blue list-unstyled">
+				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_mission.html">Mission</a></li>
+				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_leadership.html">Leadership</a></li>
+				<li class="thefacts-levelone"><a href=https://www.chicago.gov/content/city/en/depts/doit/auto_generated/doit_our_structure.html">Our Structure</a></li>
+
+			</ul>
         </div>
+      </div>
+
   <div class="p-4">
   <div class="accordion" id="accordionExample">
               <div class="card">
