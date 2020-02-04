@@ -239,7 +239,7 @@ layout: city-page
 
 <div class="card  mb-2">
     <div class="card-header">
-		<i class="fas fa-hand-point-right" aria-hidden="true"></i>I Want To:
+		<i class="fas fa-hand-point-right" aria-hidden="true"></i>&nbsp;I Want To:
 	</div>
     <div class="card-body">
 		<div class="accordion" id="iWantToAccordion">
