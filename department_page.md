@@ -9,6 +9,7 @@ layout: city-page
           background-image: url('https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg');
           background-position: 80%;
       }
+	.xcol { margin-bottom:20px; }
 </style>
 
 <section class="cds-hero">
