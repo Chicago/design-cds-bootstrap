@@ -190,6 +190,7 @@ layout: city-page
 	
         </div>
   	<section id='infoSection'>
+	{% include iwantTo.md %}
   <div class="card">
 	<div class="card-header" id="headingInfowhatWeDo">
 	 
