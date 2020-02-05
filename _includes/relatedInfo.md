@@ -7,8 +7,8 @@
 
 <section id='infoSection' class="my-2">
     <div class="card mb-2">
-        <div class="card-header" id="headingInfowhatWeDo">
-            <a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#infoWhatWeDo" aria-expanded="false" aria-controls="infoWhatWeDo">
+        <div class="card-header bg-primary" id="headingInfowhatWeDo">
+            <a href="#" class="accordion-toggle text-white collapsed" data-toggle="collapse" data-target="#infoWhatWeDo" aria-expanded="false" aria-controls="infoWhatWeDo">
                 <h5 class="mb-0">What We Do</h5>
             </a>
         </div>
@@ -31,8 +31,8 @@
     </div>
 	
     <div class="card mb-2">
-        <div class="card-header" id="headingSuppInfo">
-            <a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#infoSuppInfo" aria-expanded="false" aria-controls="infoSuppInfo">
+        <div class="card-header bg-primary" id="headingSuppInfo">
+            <a href="#" class="accordion-toggle text-white collapsed" data-toggle="collapse" data-target="#infoSuppInfo" aria-expanded="false" aria-controls="infoSuppInfo">
                 <h5 class="mb-0">Supporting Information</h5>
             </a>
         </div>
