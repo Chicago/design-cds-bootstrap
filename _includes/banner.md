@@ -8,7 +8,6 @@
 
 <section class="cds-hero">
   <div class="container">
-  {% if include.title %}
     <div class="cds-hero-callout">
       <h1 class="cds-hero-heading">
           <span class="text-white">{{ include.title }}</span>
@@ -16,6 +15,5 @@
           <p>{{ include.description }}</p>
           
     </div>
-  <% endif %>
   </div>
 </section>
