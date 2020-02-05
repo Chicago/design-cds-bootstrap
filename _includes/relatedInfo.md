@@ -1,6 +1,6 @@
 <style>
 	#infoSection .card-header { 
-		boder-bottom:0px;
+		boder:0px;
 	}
 	
 </style>
