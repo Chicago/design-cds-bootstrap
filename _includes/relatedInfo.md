@@ -4,6 +4,7 @@
 	}
 	
 </style>
+
 <section id='infoSection' class="my-2">
     <div class="card mb-2">
         <div class="card-header" id="headingInfowhatWeDo">
