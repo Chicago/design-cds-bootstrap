@@ -170,6 +170,7 @@ layout: city-page
 <li>Producing and contributing to&nbsp;<a title="open source projects" href="https://github.com/Chicago" target="_blank" rel="noopener noreferrer">open source projects</a>&nbsp;</li>
 <li>Supporting <a title="public access to technology" href="/city/en/depts/doit/dataset/public_technologyresources.html">public access to technology</a> at City facilities</li>
 <li>Building strategic partnerships</li>
+<li><a href="/design-cds-bootstrap/department_sub_page.html">Hardware and Software Technology Standards</a></li>
 </ul>
 
 </div>
