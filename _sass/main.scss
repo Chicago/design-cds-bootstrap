@@ -6,13 +6,25 @@
 @import "variables";
 @import "../bootstrap/scss/bootstrap.scss";
 
+/*
+rem ratio conversion 1:10 to pixels
+*/
 html {
 	font-size:62.5%;
 }
 
+/* H6 force upprecase */
 h6 {
 	text-transform: uppercase;
 	font-weight: 400;
+}
+
+/*
+Focus state
+*/
+.cds-focus, [contentEditable=true]:focus, [href]:focus, [tabindex]:focus, button:not([disabled]):focus, iframe:focus, input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+	outline: .3rem dashed $blue;
+	outline-offset: 1;
 }
 
 /*
