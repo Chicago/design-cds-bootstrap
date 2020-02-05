@@ -1,5 +1,5 @@
 <!--Accordion-->
-<div class="card  mb-2">
+<div class="card mb-2">
     <div class="card-header">
 		<i class="fas fa-hand-point-right" aria-hidden="true"></i>&nbsp;I Want To:
 	</div>
@@ -7,9 +7,9 @@
 		<div class="accordion" id="iWantToAccordion">
 			<!--Cards-->
   <div class="card mb-2">
-	<div class="card-header" id="headingOne">
+	<div class="card-header bg-primary" id="headingOne">
 	 
-		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		<a href="#" class="accordion-toggle collapsed text-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 		  <h5 class="mb-0">Apply For</h5>
 		</a>
 	 
@@ -33,9 +33,9 @@
   </div>
   
     <div class="card">
-	<div class="card-header" id="headingCheckStatus">
+	<div class="card-header bg-primary" id="headingCheckStatus">
 	 
-		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#collapseCheckStatus" aria-expanded="false" aria-controls="collapseOne">
+		<a href="#" class="accordion-toggle collapsed text-white" data-toggle="collapse" data-target="#collapseCheckStatus" aria-expanded="false" aria-controls="collapseOne">
 		  <h5 class="mb-0">Check Status Of</h5>
 		</a>
 	 
