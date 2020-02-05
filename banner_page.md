@@ -16,7 +16,7 @@ layout: page
     <div class="cds-hero-callout">
       <h1 class="cds-hero-heading">
           <span class="text-white">Hero callout:</span><br>
-          Bring attention to a project priority
+          <span class="blue-100">Bring attention to a project priority</span>
       </h1>
           <p>Support the callout with some short explanatory text. You don’t need more than a couple of sentences.</p>
           <a class="btn btn-outline-light  btn-lg" href="javascript:void(0)">Call to action</a>
