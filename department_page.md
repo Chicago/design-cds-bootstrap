@@ -10,7 +10,7 @@ layout: city-page
           background-position: 80%;
       }
 	.xcol { margin-bottom:20px; }
-	#iWantToAccordion .card-body { 
+	#iWantToAccordion .card-body, #infoSection .card-body { 
 		padding:0px; 
 		border: 0px;
 	    margin-left: -1px;
@@ -189,12 +189,12 @@ layout: city-page
 
 	
         </div>
-  	<section class='infoSection'>
+  	<section id='infoSection'>
   <div class="card">
 	<div class="card-header" id="headingInfowhatWeDo">
 	 
 		<a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#infoWhatWeDo" aria-expanded="false" aria-controls="infoWhatWeDo">
-		  <h4 class="mb-0">What We Do</h4>
+		  <h5 class="mb-0">What We Do</h5>
 		</a>
 	 
 	</div>
