@@ -1,13 +1,14 @@
 <style>
 
 @media (min-width: 40em) {
-.cds-hero-callout {
-    max-width: 80rem;
+    .cds-hero-callout {
+        max-width: 80rem;
+    }
 }
-
 .cds-hero {
     background-color: #162e51;
 }
+
 </style>
 <section class="cds-hero">
   <div class="container">
