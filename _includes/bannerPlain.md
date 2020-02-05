@@ -12,7 +12,7 @@
 </style>
 <section class="cds-hero">
   <div class="container">
-    <div class="cds-hero-callout" style="max-width:50%">
+    <div class="cds-hero-callout" >
       <h1 class="cds-hero-heading">
           <span class="text-white">{{ include.title }}</span>
       </h1>
