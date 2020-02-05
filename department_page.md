@@ -5,10 +5,7 @@ layout: city-page
 ---
 <!-- HERO-->
 <style>
-      .xcds-hero {
-          background-image: url('https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg');
-          background-position: 80%;
-      }
+
 	.xcol { margin-bottom:20px; }
 	#iWantToAccordion .card-body, #infoSection .card-body { 
 		padding:0px; 
@@ -17,19 +14,7 @@ layout: city-page
 	    margin-right: -1px;	
 	}
 </style>
-<!--
-<section class="cds-hero">
-  <div class="container">
-    <div class="cds-hero-callout">
-      <h1 class="cds-hero-heading">
-          <span class="text-white">INNOVATION AND TECHNOLOGY</span>
-      </h1>
-          <p>DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology.</p>
-          
-    </div>
-  </div>
-</section> 
--->
+
 {% include banner.md title="INNOVATION AND TECHNOLOGY" description="DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology." banner="https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg" %}
 
 <!-- CONTENT-->
