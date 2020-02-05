@@ -2,9 +2,10 @@
 	#infoSection .card-header { 
 		boder-bottom:0px;
 	}
+	
 </style>
-<section id='infoSection'>
-    <div class="card">
+<section id='infoSection' class="my-2">
+    <div class="card mb-2">
         <div class="card-header" id="headingInfowhatWeDo">
             <a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#infoWhatWeDo" aria-expanded="false" aria-controls="infoWhatWeDo">
                 <h5 class="mb-0">What We Do</h5>
@@ -28,7 +29,7 @@
         </div>
     </div>
 	
-    <div class="card">
+    <div class="card mb-2">
         <div class="card-header" id="headingSuppInfo">
             <a href="#" class="accordion-toggle collapsed" data-toggle="collapse" data-target="#infoSuppInfo" aria-expanded="false" aria-controls="infoSuppInfo">
                 <h5 class="mb-0">Supporting Information</h5>
