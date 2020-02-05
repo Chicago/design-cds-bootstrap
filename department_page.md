@@ -5,7 +5,7 @@ layout: city-page
 ---
 <!-- HERO-->
 <style>
-      .cds-hero {
+      .xcds-hero {
           background-image: url('https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg');
           background-position: 80%;
       }
@@ -17,7 +17,7 @@ layout: city-page
 	    margin-right: -1px;	
 	}
 </style>
-
+<!--
 <section class="cds-hero">
   <div class="container">
     <div class="cds-hero-callout">
@@ -29,6 +29,9 @@ layout: city-page
     </div>
   </div>
 </section> 
+-->
+{% include banner.md title="INNOVATION AND TECHNOLOGY" description="DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology." banner="https://www.chicago.gov/content/dam/city/depts/doit/banners/2017/doit-main-banner.jpg" %}
+
 <!-- CONTENT-->
 <main role="main" class="container">
     <div class="row">
