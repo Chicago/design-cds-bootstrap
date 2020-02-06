@@ -3,7 +3,6 @@
 	.cds-hero { 
 		background-image: 
       url('{{ include.banner }}'); background-position: 80%; 
-      height:200px;
     } 
 			
 </style>
