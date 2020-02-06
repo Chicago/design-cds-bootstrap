@@ -4,7 +4,7 @@ Welcome to the Chicago Design System as a Bootstrap 4 theme, with associated med
 
 This repository is a simple Jekyll website [hosted on Github Pages here](https://chicago.github.io/design-cds-bootstrap/), with a reference user interface implementation of different primitive elements. This will grow over time.
 
-In this repository Bootstrap is included as a GitHub submodule, so a specific Bootstrap 4 version may be compiled into our CSS master file. For this work I chose v4.3.1.
+In this repository Bootstrap is included as a GitHub submodule, so a specific Bootstrap 4 version may be compiled into our CSS master file. For this work we are currently using version 4.4.1.
 
 
 ## Thanks & Inspiration
