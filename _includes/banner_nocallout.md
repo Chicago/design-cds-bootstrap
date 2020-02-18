@@ -2,13 +2,14 @@
 <style> 
 	.cds-hero { 
 		background-image: 
-      url('{{ include.banner }}'); background-position: 80%; 
-    } 
-			
+      url('{{ include.banner }}');
+      background-position-x: 80%;
+      background-position-y: 70%;
+    } 	
 </style>
 
 <section class="cds-hero">
   <div class="container">
-    <p><br><p>
+    <p>&nbsp;<p>
   </div>
 </section>
