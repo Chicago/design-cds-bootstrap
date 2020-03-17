@@ -28,6 +28,14 @@ Focus state
 }
 
 /*
+Content height
+Sets minimun content height as the 50% of the Viewport, keeps footer at the bottom of the page when content is not enough to fill it.
+*/
+.cds-content-main {
+	min-height: 50vh;
+}
+
+/*
 site seal
 */
 @import "cds-siteseal";
