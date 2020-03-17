@@ -916,6 +916,15 @@
 	width: 100%;
 }
 
+.megamenu-full {
+    width: 100vw !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+}
+
+
 .cds-sidenav { 
 	margin-bottom: 0;
     margin-top: 0;
