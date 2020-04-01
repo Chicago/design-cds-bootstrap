@@ -15,13 +15,13 @@ img.trust-seal-icon {
 
 button.trust-seal-action {
     background-color: transparent;
-    color:$blue;
+    color:$blue-900;
     border: 0px;
 
 }
    
 button.trust-seal-action:focus {
-    outline: .25rem solid $blue;
+    outline: .25rem solid $blue-900;
     outline-offset: 0;
 }
 .trust-seal-action::after {
