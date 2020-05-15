@@ -608,11 +608,7 @@ layout: page
               </div>
             </div>
       </div>
-    </div>
-  </div>
-  <div>
-    <div>
-    <div class="bs-stepper">
+      <div class="bs-stepper">
 	    <div class="bs-stepper-header" role="tablist">
 		    <div class="step active" data-target="#step-l-1">
               <button type="button" class="step-trigger" role="tab" id="stepper1trigger1" aria-controls="step-l-1" aria-selected="true">
@@ -645,6 +641,9 @@ layout: page
 	</div>
 </div>
     </div>
+  </div>
+  <div>
+  
     <div>
             <!--Body text-->
       <h1>The Quick Brown Fox Jumped Over The Lazy Dog</h1>
