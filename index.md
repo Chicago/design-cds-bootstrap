@@ -612,6 +612,40 @@ layout: page
   </div>
   <div>
     <div>
+    <div class="bs-stepper">
+	    <div class="bs-stepper-header" role="tablist">
+		    <div class="step active" data-target="#step-l-1">
+              <button type="button" class="step-trigger" role="tab" id="stepper1trigger1" aria-controls="step-l-1" aria-selected="true">
+                <span class="bs-stepper-circle">1</span>
+                <span class="bs-stepper-label">First</span>
+              </button>
+            </div>
+        <div class="bs-stepper-line"></div>
+
+		 	<div class="step" data-target="#step-l-2">
+              <button type="button" class="step-trigger" role="tab" id="stepper1trigger2" aria-controls="step-l-2" aria-selected="false" disabled="disabled">
+                <span class="bs-stepper-circle">2</span>
+                <span class="bs-stepper-label">Second</span>
+              </button>
+            </div>
+		<div class="bs-stepper-line"></div>
+		     <div class="step" data-target="#step-l-3">
+              <button type="button" class="step-trigger" role="tab" id="stepper1trigger3" aria-controls="step-l-3" aria-selected="false" disabled="disabled">
+                <span class="bs-stepper-circle">3</span>
+                <span class="bs-stepper-label">Third</span>
+              </button>
+            </div>
+            <div class="bs-stepper-line"></div>
+		     <div class="step" data-target="#step-l-4">
+              <button type="button" class="step-trigger" role="tab" id="stepper1trigger4" aria-controls="step-l-4" aria-selected="false" disabled="disabled">
+                <span class="bs-stepper-circle">4</span>
+                <span class="bs-stepper-label">Fourth</span>
+              </button>
+            </div>
+	</div>
+</div>
+    </div>
+    <div>
             <!--Body text-->
       <h1>The Quick Brown Fox Jumped Over The Lazy Dog</h1>
       <h2>The Quick Brown Fox Jumped Over The Lazy Dog</h2>
