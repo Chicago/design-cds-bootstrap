@@ -23,7 +23,7 @@ group :jekyll_plugins do
 end
 
 # Security alert warning
-gem "rack", ">= 1.6.12"
+gem "rack", ">= 2.1.4"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
